@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">学渣西财求生</string>
+
+    <string name="zhuxuanxiang1">DDL设置与管理</string>
+    <string name="zhuxuanxiang2">课表提醒设置与管理</string>
+    <string name="zhuxuanxiang3">常用网站设置与管理</string>
+
+    <string name="ddl_tianjia">DDL事项添加</string>
+    <string name="ddl_sousuo">搜索</string>
+    <string name="ddl_shuaxin">刷新</string>
+    <string name="ddl_sousuotishi">请输入要搜索的DDL</string>
+
+    <string name="tishi_shijian">设置时间</string>
+    <string name="tishi_didian">设置地点</string>
+    <string name="tishi_shixiang">设置事项</string>
+    <string name="tishi_renwushijian">设置任务所需时间</string>
+
+
+    <string name="tishi_shurudidian">在此输入地点</string>
+    <string name="tishi_shurushixiang">在此输入事项</string>
+    <string name="tishi_shurusuoxushijian_tianshu">在此输入任务所需时间_天数</string>
+    <string name="tishi_shurusuoxushijian_xiaoshishu">在此输入任务所需时间_小时数</string>
+    <string name="tishi_baocunxinxi">保存</string>
+
+    <string name="tishi_xiugaididian">在此修改地点</string>
+    <string name="tishi_xiugaishixiang">在此修改事项</string>
+    <string name="tishi_xiugai_tianshu">在此修改任务所需时间_天数</string>
+    <string name="tishi_xiugai_xiaoshishu">在此修改任务所需时间_小时数</string>
+    <string name="tishi_xiugai">确认修改</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

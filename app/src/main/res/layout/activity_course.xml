@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".courseActivity">
+
+    <Button
+        android:id="@+id/button_course_tianjia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="tianjia"
+        android:text="点击添加课程" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_course_zhou1"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:onClick="dianjizhouji"
+                android:text="周一" />
+
+            <Button
+                android:id="@+id/button_course_zhou2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dianjizhouji"
+                android:text="周二" />
+
+            <Button
+                android:id="@+id/button_course_zhou3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dianjizhouji"
+                android:text="周三" />
+
+            <Button
+                android:id="@+id/button_course_zhou4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dianjizhouji"
+                android:text="周四" />
+
+            <Button
+                android:id="@+id/button_course_zhou5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dianjizhouji"
+                android:text="周五" />
+
+            <Button
+                android:id="@+id/button_course_zhou6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dianjizhouji"
+                android:text="周六" />
+
+            <Button
+                android:id="@+id/button_course_zhou7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="dianjizhouji"
+                android:text="周日" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/kecheng"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
